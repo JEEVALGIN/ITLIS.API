@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITLIS.DBEngine\ITLIS.DBEngine.csproj" />
+    <ProjectReference Include="..\ITLIS.FrameWork\ITLIS.FrameWork.csproj" />
+    <ProjectReference Include="..\ITLIS.Models\ITLIS.Models.csproj" />
+  </ItemGroup>
+
+</Project>
